@@ -1,0 +1,14 @@
+name: Template for Docker Action
+author: nownabe
+description: Template for Docker Action
+inputs:
+  name:
+    description: Name to greet
+    required: false
+    default: World
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  color: red
+  icon: file-text
